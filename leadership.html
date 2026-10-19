@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leadership | Tiffany Yu</title>
+  <meta name="description" content="Leadership proposal: creating a TA-supported course resource hub to make academic help approachable and accessible.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TY</span><span>Tiffany Yu<small>GLD ePortfolio · Research</small></span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <ul class="nav-links">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="insights.html">Key Insights</a></li>
+        <li><a href="leadership.html" class="active">Leadership</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li class="nav-cta"><a class="btn btn-primary btn-sm" href="research.html#resume">Resume</a></li>
+      </ul>
+    </div>
+    <div class="progress"></div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <pre class="hero-code" aria-hidden="true"><span class="c">// leadership.proposal</span>
+problem  = <span class="s">"students afraid to ask"</span>
+solution = <span class="s">"TA course resource hub"</span>
+built_on = [KI_01, KI_02, KI_03]
+<span class="k">assert</span> no_student_struggles_alone</pre>
+      <div class="container">
+        <div class="breadcrumb reveal"><a href="index.html">home</a> / leadership</div>
+        <div class="eyebrow reveal">Leadership Proposal</div>
+        <h1 class="reveal d1">Creating a <span class="grad-text">TA-Supported Course Resource Hub</span></h1>
+        <p class="lede reveal d2">Students should not have to struggle alone just because they are nervous to ask a question. This proposal applies my three key insights to make academic help less intimidating and more accessible in computer engineering courses.</p>
+      </div>
+    </section>
+
+    <section style="padding-bottom:40px">
+      <div class="container article-layout">
+        <aside class="toc">
+          <div class="toc-title">On this page</div>
+          <ol>
+            <li><a href="#issue">The Issue</a></li>
+            <li><a href="#solution">The Solution</a></li>
+            <li><a href="#rationale">Rationale</a></li>
+            <li><a href="#perspectives">Perspectives</a></li>
+            <li><a href="#plan">Detailed Plan</a></li>
+            <li><a href="#evaluation">Evaluation</a></li>
+            <li><a href="#vision">Looking Ahead</a></li>
+          </ol>
+        </aside>
+
+        <article class="article">
+          <section id="issue" class="reveal">
+            <h2><span class="n">01</span>The Issue</h2>
+            <p>One issue I have noticed as a student is that many students struggle with course material but do not always feel comfortable asking for help. They may be confused by a topic, behind on an assignment, or unsure how to study for an exam, but they are scared to attend office hours. Some students worry that they will ask a “stupid question,” interrupt the professor, or prove that they do not belong in the class. Others may think that a professor is intimidating, especially in a major-related course where the material already feels difficult.</p>
+            <div class="problem-grid">
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>Fear of Asking</h4><p>Students avoid office hours because they worry about asking a “stupid question.”</p></div>
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m17 8 5 5M22 8l-5 5"/></svg>Few Specialized Tutors</h4><p>Upper-level courses have fewer tutors, and curricula change from semester to semester.</p></div>
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M10 15l4 4M14 15l-4 4"/></svg>Limited SI Coverage</h4><p>Supplemental Instruction helps, but it is not offered for every specialized class.</p></div>
+            </div>
+            <p>Tutoring can be helpful, but it does not always solve the problem. As courses become more specialized, there may be fewer tutors available who understand that specific course. The curriculum can also change from semester to semester. A tutor may have taken a class before, but the professor may now teach different topics, use different software, or assign a different type of project. Supplemental Instruction leaders can be especially helpful because they have usually taken the class before and are taking it again alongside the current students. This allows them to understand what students are learning at that moment. However, SI leaders are not available for every course, especially upper-level or specialized classes.</p>
+          </section>
+
+          <section id="solution" class="reveal">
+            <h2><span class="n">02</span>The Solution</h2>
+            <p>The result is that students can feel stuck between several support options that do not fully meet their needs. My proposed solution is to create a <strong>TA-supported course resource hub</strong> when I become a teaching assistant. This would be a professor-approved website or course page that gives students a clear, low-pressure place to find help. It would not replace the professor, office hours, tutoring, or SI. Instead, it would make those resources easier to use and give students several ways to get support based on what they are comfortable with.</p>
+            <p>The main goal of the resource hub would be to make help feel less intimidating and more accessible. Some students learn best by watching a short video. Others need to read a written walkthrough, work through practice problems, review common mistakes, or see an example step by step. Some students may not be ready to ask a question out loud but may be comfortable submitting it anonymously. Providing multiple ways to learn would recognize that students do not all learn or communicate in the same way.</p>
+
+            <div class="card hub-mock glow-border">
+              <div class="hub-bar"><span></span><span></span><span></span><div class="url">course-hub / start-here</div></div>
+              <div class="hub-features">
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><h4>“Start Here” Page</h4><p>What students are learning that week, why it matters, and the main terms or skills to understand before moving forward.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div><h4>Review Videos &amp; Walkthroughs</h4><p>Short explanations of difficult concepts in plain language, focused on one topic, one homework skill, or one common mistake.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div><h4>Practice Problems</h4><p>Problems with explanations, because students need to understand why a solution works, not just the answer.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0zM12 9v4M12 17h.01"/></svg></div><h4>Common Mistakes &amp; FAQ</h4><p>Shared confusion explained once, in a general way, without identifying any student.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>Anonymous Question Form</h4><p>A way to ask without embarrassment, with answers posted on the hub, in a review session, or at the start of class.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><h4>“How to Ask for Help”</h4><p>Example emails, how to prepare for office hours, and how to explain what you have already tried.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg></div><h4>Resource &amp; Referral Page</h4><p>Office hours, tutoring, SI, the Student Success Center, accessibility, counseling and wellness, and other campus support.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 15l2 2 4-4"/></svg></div><h4>Study Planning</h4><p>Weekly checklists, deadline reminders, exam-prep suggestions, and help breaking large assignments into smaller steps.</p></div>
+                <div class="feat"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.3a2 2 0 0 0 2-1.7l1.4-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg></div><h4>Feedback Form</h4><p>Students suggest topics to review and say which resources help them most.</p></div>
+              </div>
+            </div>
+
+            <p>All materials on the website would need to be approved by the professor. I would not post old exams, quizzes, slides, answer keys, or other class materials unless the instructor specifically allowed it. If the professor does not want certain materials shared, I could create my own general study guides, practice examples, concept reviews, or links to approved outside resources instead. This protects academic integrity while still giving students useful support.</p>
+          </section>
+
+          <section id="rationale" class="reveal">
+            <h2><span class="n">03</span>Rationale: Built on My Key Insights</h2>
+            <div class="links-ki">
+              <a class="card" href="insight-1.html"><small>KEY INSIGHT 01</small><h4>Curiosity</h4><p>Saying “I do not understand this yet” is where learning starts. The anonymous form and FAQ make that safe.</p></a>
+              <a class="card" href="insight-2.html"><small>KEY INSIGHT 02</small><h4>Hands-On Learning</h4><p>Practice problems and step-by-step walkthroughs let students actively use the material.</p></a>
+              <a class="card" href="insight-3.html"><small>KEY INSIGHT 03</small><h4>Meeting People Where They Are</h4><p>Multiple paths to support, because quiet students may not ask out loud.</p></a>
+            </div>
+            <p>This solution is connected to what I learned in EDLP 520 and through my work as a UNIV 101 Peer Leader. In EDLP 520, I learned that leadership and communication are not about giving everyone the same response. Students have different backgrounds, confidence levels, and ways of learning. As a Peer Leader, I learned that a quiet student may not be uninterested. Some students are comfortable speaking during class, while others only open up in a one-on-one conversation or after they have had more time to think. The resource hub would apply that same lesson to a future TA role. It would give students different paths to support instead of assuming that one office hour, one tutor, or one explanation will work for everyone.</p>
+            <p>My own learning experiences also support this recommendation. I learn best when I can work through an example, test something myself, make mistakes, and understand why a solution works. That is why the hub would include practice problems, explanations, and step-by-step walkthroughs instead of only a list of links. Students should have opportunities to actively use the material, not only reread notes and hope they remember everything later.</p>
+          </section>
+
+          <section id="perspectives" class="reveal">
+            <h2><span class="n">04</span>Stakeholder Perspectives</h2>
+            <div class="stakeholders">
+              <div class="card"><div class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h4>Students</h4><p>Need approachable and flexible support.</p></div>
+              <div class="card"><div class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h4>Professors</h4><p>Need accurate information and control over their course materials.</p></div>
+              <div class="card"><div class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h4>Tutors &amp; SI Leaders</h4><p>Need resources that complement their work rather than duplicate it.</p></div>
+              <div class="card"><div class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg></div><h4>The TA</h4><p>Needs a realistic system that can be updated without becoming overwhelming.</p></div>
+            </div>
+            <p>This proposal also considers the perspectives of other people involved. Students need approachable and flexible support. Professors need accurate information and control over their course materials. Tutors and SI leaders need resources that complement their work rather than duplicate it. A TA needs a realistic system that can be updated regularly without becoming overwhelming. The course resource hub would address these perspectives by using professor-approved content, clearly explaining its purpose, and directing students to the appropriate person or campus resource when a question is beyond the TA’s role.</p>
+          </section>
+
+          <section id="plan" class="reveal">
+            <h2><span class="n">05</span>Detailed Plan</h2>
+            <div class="timeline">
+              <div class="card t-item">
+                <div class="when">Phase 1 · Before the Semester</div>
+                <h4>Align with the Professor</h4>
+                <p>My implementation plan would begin before the semester starts. First, I would meet with the professor to discuss expectations, course policies, which materials may be shared, and the topics that students commonly struggle with.</p>
+              </div>
+              <div class="card t-item">
+                <div class="when">Phase 2 · Weeks 1–2</div>
+                <h4>Build the Foundation &amp; Introduce It Early</h4>
+                <p>During the first two weeks of the semester, I would create the basic structure: a welcome page, a list of official course resources, office-hour information, a question form, and a weekly schedule. I would introduce the site early so students know it exists before they are already struggling. I would make it clear that asking for help is normal and that the website is one option among many.</p>
+              </div>
+              <div class="card t-item">
+                <div class="when">Phase 3 · Throughout the Semester</div>
+                <h4>Update Weekly &amp; Watch for Patterns</h4>
+                <p>Throughout the semester, I would update the hub each week based on the current course material. I would add short concept reviews, practice questions, common mistakes, and answers to anonymous questions that could help the whole class. I would also watch for patterns. For example, if several students are confused about the same homework topic, I could create a short walkthrough or ask the professor whether it should be reviewed in class.</p>
+              </div>
+              <div class="card t-item">
+                <div class="when">Phase 4 · Mid-Semester Checkpoints</div>
+                <h4>Collect Anonymous Feedback</h4>
+                <p>To evaluate whether the resource hub is helping, I would ask students for anonymous feedback several times during the semester. I would ask questions such as: Which resources did you use? Did the site make you more comfortable asking for help? Which topic still needs a clearer explanation? I would also track general patterns, such as which pages students use most often and which questions repeatedly appear. I would not use the website as a way to judge individual students. Its purpose would be to identify where the class as a whole needs more support.</p>
+              </div>
+              <div class="card t-item">
+                <div class="when">Phase 5 · End of the Semester</div>
+                <h4>Reflect, Refine &amp; Share the Model</h4>
+                <p>At the end of the semester, I would reflect on what worked and what needs improvement with the professor. If students found the resource hub useful, the structure could be reused and adapted for future semesters. Other TAs and instructors could also use a similar model for their own courses. The exact materials would change depending on the class, but the main idea would stay the same: students should not have to struggle alone just because they are nervous to ask a question.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="evaluation" class="reveal">
+            <h2><span class="n">06</span>Evaluation at a Glance</h2>
+            <div class="eval-grid">
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Questions I Will Ask</h4><ul><li>Which resources did you use?</li><li>Did the site make you more comfortable asking for help?</li><li>Which topic still needs a clearer explanation?</li></ul></div>
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>Data I Will Track</h4><ul><li>Which pages students use most often</li><li>Which questions repeatedly appear</li><li>Class-wide patterns only, never individual judgments</li></ul></div>
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>Who Provides Input</h4><ul><li>Students, through anonymous and feedback forms</li><li>The professor, through approval and end-of-semester reflection</li></ul></div>
+              <div class="card"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg>What Success Looks Like</h4><ul><li>Students report feeling more comfortable asking for help</li><li>Recurring confusion is addressed with targeted walkthroughs</li><li>The structure is reused in future semesters and by other TAs</li></ul></div>
+            </div>
+          </section>
+
+          <section id="vision" class="reveal">
+            <h2><span class="n">07</span>Looking Ahead</h2>
+            <p>As a future TA, I want to be more than someone who grades assignments or repeats information from the professor. I want to be a resource that helps students feel less intimidated, more prepared, and more comfortable seeking help. My experience as a UNIV 101 Peer Leader taught me that students are more likely to succeed when they feel seen, supported, and able to ask questions without embarrassment. A TA-supported course resource hub would allow me to carry that same leadership approach into the computer engineering classroom.</p>
+            <div class="pull">Students should not have to struggle alone just because they are nervous to ask a question.</div>
+          </section>
+
+          <nav class="pager">
+            <a class="card" href="insight-3.html"><small>← Previous</small><strong>03 · Meeting People Where They Are</strong></a>
+            <a class="card next" href="research.html"><small>Next →</small><strong>Research Posters &amp; Resume</strong></a>
+          </nav>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark">TY</span><span>Tiffany Yu<small>GLD ePortfolio · Research</small></span></a>
+          <p style="margin-top:14px">Computer Engineering · University of South Carolina<br>Graduation with Leadership Distinction in Research</p>
+          <div class="socials">
+            <a href="mailto:xixi05yu@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+            <a href="https://www.linkedin.com/in/tyu05" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            <a href="https://github.com/xixi05yu" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="insights.html">Key Insights</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="research.html">Research Posters</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Key Insights</h4>
+          <ul>
+            <li><a href="insight-1.html">01 · Curiosity in Research</a></li>
+            <li><a href="insight-2.html">02 · Hands-On Learning</a></li>
+            <li><a href="insight-3.html">03 · Meeting People Where They Are</a></li>
+            <li><a href="research.html#resume">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy"><span>© <span class="year">2026</span> Tiffany Yu</span><span>Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</span></div>
+    </div>
+  </footer>
+  <button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Document viewer">
+    <div class="lb-top">
+      <div class="lb-title"></div>
+      <div class="lb-actions">
+        <a class="btn btn-sm lb-open" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg><span>Open</span></a>
+        <a class="btn btn-sm lb-download" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg><span>Download</span></a>
+        <button class="btn btn-sm lb-close" aria-label="Close viewer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+    <div class="lb-stage"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

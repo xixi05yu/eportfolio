@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Posters & Resume | Tiffany Yu</title>
+  <meta name="description" content="Research posters, publications, and resume of Tiffany Yu: machine learning for hardware efficiency, graph optimization, and FPGA neural networks.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TY</span><span>Tiffany Yu<small>GLD ePortfolio · Research</small></span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <ul class="nav-links">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="insights.html">Key Insights</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li class="nav-cta"><a class="btn btn-primary btn-sm" href="research.html#resume">Resume</a></li>
+      </ul>
+    </div>
+    <div class="progress"></div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <pre class="hero-code" aria-hidden="true"><span class="c">// research.log</span>
+2025-03  <span class="s">first poster</span>
+2025-07  <span class="s">arXiv preprints</span>
+2025-11  <span class="s">SC25, international stage</span>
+2026-07  <span class="s">MLP on FPGA</span>
+<span class="k">status</span>: still curious</pre>
+      <div class="container">
+        <div class="breadcrumb reveal"><a href="index.html">home</a> / research</div>
+        <div class="eyebrow reveal">Research</div>
+        <h1 class="reveal d1">Research Posters, <span class="grad-text">Publications &amp; Resume</span></h1>
+        <p class="lede reveal d2">My research applies machine learning to make computer hardware more efficient, from pruning automata graphs for FPGA accelerators to running neural networks directly on FPGA hardware. Select any poster to view it full size.</p>
+      </div>
+    </section>
+
+    <section class="section" id="posters" style="padding-top:10px">
+      <div class="container">
+        <div class="filters reveal" role="group" aria-label="Filter posters">
+          <button class="active" data-filter="all">All posters</button>
+          <button data-filter="graph">Graph optimization</button>
+          <button data-filter="fpga">FPGA &amp; neural networks</button>
+          <button data-filter="y2025">2025</button>
+          <button data-filter="y2026">2026</button>
+        </div>
+        <div class="poster-grid">
+
+          <article class="card poster reveal" data-tags="fpga y2026">
+            <button class="img" data-lightbox data-type="img" data-src="assets/posters/poster-5-mlp-labview-fpga.jpg" data-download="assets/posters/poster-5-mlp-labview-fpga.pdf" data-title="Performance and Resource Analysis of MLP Forward Pass on LabVIEW FPGA">
+              <img src="assets/posters/poster-5-mlp-labview-fpga.jpg" alt="Poster: Performance and Resource Analysis of MLP Forward Pass on LabVIEW FPGA" loading="lazy">
+              <span class="num">POSTER 05</span>
+              <span class="zoom"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>View poster</span></span>
+              <span class="presenting"><img src="assets/img/gallery/photo-14.jpg" alt="" loading="lazy"></span>
+            </button>
+            <div class="body">
+              <h3>Performance and Resource Analysis of MLP Forward Pass on LabVIEW FPGA</h3>
+              <ul class="venues"><li><time>Jul 23, 2026</time>USC Summer Symposium</li></ul>
+              <p class="sum">A multi-layer perceptron built in fixed-point arithmetic on an NI cRIO-9033 FPGA, using a pipelined matrix-multiplication engine, with an analysis of how latency and DSP usage grow as the network scales.</p>
+              <div class="actions"><button class="btn btn-ghost btn-sm" data-lightbox data-type="img" data-src="assets/posters/poster-5-mlp-labview-fpga.jpg" data-download="assets/posters/poster-5-mlp-labview-fpga.pdf" data-title="Performance and Resource Analysis of MLP Forward Pass on LabVIEW FPGA">View</button><a class="btn btn-ghost btn-sm" href="assets/posters/poster-5-mlp-labview-fpga.pdf" download>Download PDF</a></div>
+            </div>
+          </article>
+
+          <article class="card poster reveal d1" data-tags="graph y2025 y2026">
+            <button class="img" data-lightbox data-type="img" data-src="assets/posters/poster-4-autoslim.jpg" data-download="assets/posters/poster-4-autoslim.pdf" data-title="AutoSlim: Intelligent Automata Graph Optimization for Efficient Acceleration">
+              <img src="assets/posters/poster-4-autoslim.jpg" alt="Poster: AutoSlim" loading="lazy">
+              <span class="num">POSTER 04</span>
+              <span class="zoom"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>View poster</span></span>
+              <span class="presenting"><img src="assets/img/gallery/photo-07.jpg" alt="" loading="lazy"></span>
+            </button>
+            <div class="body">
+              <h3>AutoSlim: Intelligent Automata Graph Optimization for Efficient Acceleration</h3>
+              <ul class="venues"><li><time>Apr 24, 2026</time>USC Discover Day</li><li><time>Nov 18, 2025</time>Supercomputing 2025 (SC25) International Conference</li></ul>
+              <p class="sum">A machine-learning pipeline that prunes redundant states and transitions before FPGA deployment, cutting 30–40% of transitions and reducing LUTs from 47K to 7K on a ZCU104 board.</p>
+              <div class="actions"><button class="btn btn-ghost btn-sm" data-lightbox data-type="img" data-src="assets/posters/poster-4-autoslim.jpg" data-download="assets/posters/poster-4-autoslim.pdf" data-title="AutoSlim: Intelligent Automata Graph Optimization for Efficient Acceleration">View</button><a class="btn btn-ghost btn-sm" href="assets/posters/poster-4-autoslim.pdf" download>Download PDF</a></div>
+            </div>
+          </article>
+
+          <article class="card poster reveal d2" data-tags="graph y2025">
+            <button class="img" data-lightbox data-type="img" data-src="assets/posters/poster-3-ml-automata-simplification.jpg" data-download="assets/posters/poster-3-ml-automata-simplification.pdf" data-title="ML-Based Automata Simplification for Symbolic Accelerators">
+              <img src="assets/posters/poster-3-ml-automata-simplification.jpg" alt="Poster: ML-Based Automata Simplification for Symbolic Accelerators" loading="lazy">
+              <span class="num">POSTER 03</span>
+              <span class="zoom"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>View poster</span></span>
+              <span class="presenting"><img src="assets/img/gallery/photo-01.jpg" alt="" loading="lazy"></span>
+            </button>
+            <div class="body">
+              <h3>ML-Based Automata Simplification for Symbolic Accelerators</h3>
+              <ul class="venues"><li><time>Jul 31, 2025</time>USC Summer Symposium</li></ul>
+              <p class="sum">Using a Random Forest classifier to identify and remove low-impact nodes and edges from automata graphs, shrinking the hardware footprint of symbolic accelerators.</p>
+              <div class="actions"><button class="btn btn-ghost btn-sm" data-lightbox data-type="img" data-src="assets/posters/poster-3-ml-automata-simplification.jpg" data-download="assets/posters/poster-3-ml-automata-simplification.pdf" data-title="ML-Based Automata Simplification for Symbolic Accelerators">View</button><a class="btn btn-ghost btn-sm" href="assets/posters/poster-3-ml-automata-simplification.pdf" download>Download PDF</a></div>
+            </div>
+          </article>
+
+          <article class="card poster reveal" data-tags="graph y2025">
+            <button class="img" data-lightbox data-type="img" data-src="assets/posters/poster-2-enhancing-security-v2.jpg" data-download="assets/posters/poster-2-enhancing-security-v2.pdf" data-title="Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V2)">
+              <img src="assets/posters/poster-2-enhancing-security-v2.jpg" alt="Poster: Enhancing Security and Efficiency, version 2" loading="lazy">
+              <span class="num">POSTER 02</span>
+              <span class="zoom"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>View poster</span></span>
+              <span class="presenting"><img src="assets/img/gallery/photo-11.jpg" alt="" loading="lazy"></span>
+            </button>
+            <div class="body">
+              <h3>Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V2)</h3>
+              <ul class="venues"><li><time>Apr 25, 2025</time>USC Discover Day</li></ul>
+              <p class="sum">An updated version of my first poster with expanded results on eliminating weak and potentially malicious nodes before they are mapped onto accelerator hardware.</p>
+              <div class="actions"><button class="btn btn-ghost btn-sm" data-lightbox data-type="img" data-src="assets/posters/poster-2-enhancing-security-v2.jpg" data-download="assets/posters/poster-2-enhancing-security-v2.pdf" data-title="Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V2)">View</button><a class="btn btn-ghost btn-sm" href="assets/posters/poster-2-enhancing-security-v2.pdf" download>Download PDF</a></div>
+            </div>
+          </article>
+
+          <article class="card poster reveal d1" data-tags="graph y2025">
+            <button class="img" data-lightbox data-type="img" data-src="assets/posters/poster-1-enhancing-security-v1.jpg" data-download="assets/posters/poster-1-enhancing-security-v1.pdf" data-title="Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V1)">
+              <img src="assets/posters/poster-1-enhancing-security-v1.jpg" alt="Poster: Enhancing Security and Efficiency, version 1" loading="lazy">
+              <span class="num">POSTER 01</span>
+              <span class="zoom"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></svg>View poster</span></span>
+              <span class="presenting"><img src="assets/img/gallery/photo-10.jpg" alt="" loading="lazy"></span>
+            </button>
+            <div class="body">
+              <h3>Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V1)</h3>
+              <ul class="venues"><li><time>Mar 7, 2025</time>CSE Graduate Research Symposium</li></ul>
+              <p class="sum">My first research poster: how unnecessary memory accesses create security risks and waste energy, and a proposed method to remove redundant and malicious states before hardware mapping.</p>
+              <div class="actions"><button class="btn btn-ghost btn-sm" data-lightbox data-type="img" data-src="assets/posters/poster-1-enhancing-security-v1.jpg" data-download="assets/posters/poster-1-enhancing-security-v1.pdf" data-title="Enhancing Security and Efficiency in Computational Hardware Through Intelligent Optimization (V1)">View</button><a class="btn btn-ghost btn-sm" href="assets/posters/poster-1-enhancing-security-v1.pdf" download>Download PDF</a></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications" style="padding-top:0">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Publications</div>
+          <h2>Research <span class="grad-text">Papers</span></h2>
+        </div>
+        <div class="pubs">
+          <div class="card pub reveal"><div class="yr">2026</div><div><h4>High-Rate State Estimation of a Printed Circuit Board Under Shock Using an FPGA-Deployed Neural Network</h4><p>Roberts, T., Satme, J. N., <b>Yu, T.</b>, Downey, A. R. J., Karakchi, R. E., Bakos, J. D. · Proceedings of the ASME 2026 Conference on Smart Materials, Adaptive Structures and Intelligent Systems (SMASIS 2026)</p></div><span class="chip violet">Conference</span></div>
+          <div class="card pub reveal"><div class="yr">2026</div><div><h4>Machine Learning-Based Graph Simplification for Symbolic Accelerators</h4><p><b>Yu, T.</b>, Stahle-Smith, R., Eswaramoorthi, D., Karakchi, R. · arXiv:2605.08996</p></div><a class="btn btn-ghost btn-sm" href="https://arxiv.org/abs/2605.08996" target="_blank" rel="noopener">arXiv ↗</a></div>
+          <div class="card pub reveal"><div class="yr">2025</div><div><h4>ML-Based Automata Simplification for Symbolic Accelerators</h4><p><b>Yu, T.</b>, Stahle-Smith, R., Eswaramoorthi, D., Karakchi, R. · arXiv:2507.08751</p></div><a class="btn btn-ghost btn-sm" href="https://arxiv.org/abs/2507.08751" target="_blank" rel="noopener">arXiv ↗</a></div>
+          <div class="card pub reveal"><div class="yr">2025</div><div><h4>Toward a Lightweight, Scalable, and Parallel Secure Encryption Engine</h4><p>Karakchi, R., Stahle-Smith, R., Chinnasami, N., <b>Yu, T.</b> · arXiv:2506.15070</p></div><a class="btn btn-ghost btn-sm" href="https://arxiv.org/abs/2506.15070" target="_blank" rel="noopener">arXiv ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume" style="padding-top:0">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Resume</div>
+          <h2>My <span class="grad-text">Resume</span></h2>
+        </div>
+        <div class="resume-wrap">
+          <div class="card glow-border resume-side reveal">
+            <h3>Tiffany Yu</h3>
+            <p style="color:var(--ink-2);margin:0">B.S. Computer Engineering · University of South Carolina · Expected December 2026</p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31M14 9.3V1.99M8.5 2h7M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>Undergraduate Research Assistant in three labs: underwater robotics, graph optimization, and FPGA neural networks</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>Discrete Structures Math Grader (August 2025 to present)</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>UNIV 101 Peer Leader, VP of Finance for Alpha Lambda Delta, and Peer Mentor</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg>Magellan Scholar, Magellan Apprentice, and Magellan Journey Awards; Capstone Scholar; Dean’s and President’s Honor Lists</li>
+            </ul>
+            <div class="skills" style="margin-bottom:24px">
+              <span class="chip">Python</span><span class="chip">C++</span><span class="chip">Java</span><span class="chip">MATLAB</span><span class="chip violet">LabVIEW FPGA</span><span class="chip violet">ROS</span><span class="chip violet">Docker</span><span class="chip mint">Machine Learning</span><span class="chip mint">Linux</span><span class="chip pink">Fluent in Chinese</span>
+            </div>
+            <div class="btns">
+              <a class="btn btn-primary" href="assets/Tiffany-Yu-Resume.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download Resume</a>
+              <a class="btn btn-ghost" href="assets/Tiffany-Yu-Resume.pdf" target="_blank" rel="noopener">Open in New Tab</a>
+            </div>
+          </div>
+          <div class="card resume-frame reveal d1">
+            <img src="assets/pages/Tiffany-Yu-Resume-01.jpg" alt="Tiffany Yu resume, page 1" loading="lazy">
+            <img src="assets/pages/Tiffany-Yu-Resume-02.jpg" alt="Tiffany Yu resume, page 2" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark">TY</span><span>Tiffany Yu<small>GLD ePortfolio · Research</small></span></a>
+          <p style="margin-top:14px">Computer Engineering · University of South Carolina<br>Graduation with Leadership Distinction in Research</p>
+          <div class="socials">
+            <a href="mailto:xixi05yu@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+            <a href="https://www.linkedin.com/in/tyu05" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            <a href="https://github.com/xixi05yu" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="insights.html">Key Insights</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="research.html">Research Posters</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Key Insights</h4>
+          <ul>
+            <li><a href="insight-1.html">01 · Curiosity in Research</a></li>
+            <li><a href="insight-2.html">02 · Hands-On Learning</a></li>
+            <li><a href="insight-3.html">03 · Meeting People Where They Are</a></li>
+            <li><a href="research.html#resume">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy"><span>© <span class="year">2026</span> Tiffany Yu</span><span>Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</span></div>
+    </div>
+  </footer>
+  <button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Document viewer">
+    <div class="lb-top">
+      <div class="lb-title"></div>
+      <div class="lb-actions">
+        <a class="btn btn-sm lb-open" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg><span>Open</span></a>
+        <a class="btn btn-sm lb-download" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg><span>Download</span></a>
+        <button class="btn btn-sm lb-close" aria-label="Close viewer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+    </div>
+    <div class="lb-stage"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

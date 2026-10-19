@@ -286,16 +286,6 @@
     addEventListener("scroll", spy, { passive: true }); spy();
   }
 
-  /* ---------- research filters ---------- */
-  const filters = $(".filters");
-  if (filters) {
-    $$("button", filters).forEach(b => b.addEventListener("click", () => {
-      $$("button", filters).forEach(x => x.classList.toggle("active", x === b));
-      const f = b.dataset.filter;
-      $$(".poster").forEach(p => p.classList.toggle("hide", f !== "all" && !p.dataset.tags.includes(f)));
-    }));
-  }
-
   /* footer year */
   $$(".year").forEach(el => (el.textContent = new Date().getFullYear()));
 })();
